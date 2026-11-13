@@ -28,64 +28,52 @@ The project demonstrates backend development concepts using NestJS, including:
 
 ## Project Structure
 
-```text
 addis-eats-api/
 ├── src/
-│   ├── restaurants/
-│   │   ├── dto/
-│   │   │   └── create-restaurant.dto.ts
-│   │   ├── restaurant.types.ts
-│   │   ├── restaurants.seed.ts
-│   │   ├── restaurants.repository.ts
-│   │   ├── restaurants.errors.ts
-│   │   ├── restaurants.service.ts
-│   │   ├── restaurants.controller.ts
-│   │   └── restaurants.module.ts
-│   ├── app.controller.ts
-│   ├── app.module.ts
-│   ├── domain-error.filter.ts
-│   └── main.ts
+│ ├── restaurants/
+│ │ ├── dto/
+│ │ │ └── create-restaurant.dto.ts
+│ │ ├── restaurant.types.ts
+│ │ ├── restaurants.seed.ts
+│ │ ├── restaurants.repository.ts
+│ │ ├── restaurants.errors.ts
+│ │ ├── restaurants.service.ts
+│ │ ├── restaurants.controller.ts
+│ │ └── restaurants.module.ts
+│ ├── app.controller.ts
+│ ├── app.module.ts
+│ ├── domain-error.filter.ts
+│ └── main.ts
 ├── test/
 ├── package.json
 ├── tsconfig.json
 ├── tsconfig.spec.json
 ├── jest.config.ts
 └── README.md
-```
 
 ## Installation
 
 Clone the repository:
 
-```bash
 git clone YOUR_REPOSITORY_URL
-```
 
 Navigate to the project folder:
 
-```bash
 cd Day55/addis-eats-api
-```
 
 Install dependencies:
 
-```bash
 npm install
-```
 
 ## Run the Application
 
 Start the development server:
 
-```bash
 npm run start:dev
-```
 
 The application runs at:
 
-```text
 http://localhost:3000
-```
 
 ## API Endpoint
 
@@ -93,9 +81,7 @@ http://localhost:3000
 
 **GET**
 
-```text
 http://localhost:3000/api/restaurants
-```
 
 Returns a JSON array containing restaurant information.
 
@@ -103,29 +89,21 @@ Returns a JSON array containing restaurant information.
 
 Run unit tests:
 
-```bash
 npm test -- --runInBand
-```
 
 Run tests in watch mode:
 
-```bash
 npm run test:watch
-```
 
 Run tests with coverage:
 
-```bash
 npm run test:cov
-```
 
 ## Build
 
 Build the application:
 
-```bash
 npm run build
-```
 
 ## Learning Objectives
 
