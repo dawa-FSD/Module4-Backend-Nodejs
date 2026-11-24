@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1001,
+    "customerName": "Abebe Kebede",
+    "area": "Bole",
+    "status": "Pending",
+    "dishes": [
+      {
+        "name": "Doro Wat",
+        "price": 35000
+      },
+      {
+        "name": "Injera",
+        "price": 5000
+      }
+    ],
+    "telebirrPhone": "0912345678",
+    "total": 40000
+  },
+  {
+    "id": 1002,
+    "customerName": "Dawit Tadesse",
+    "area": "Piassa",
+    "status": "Confirmed",
+    "dishes": [
+      {
+        "name": "Special Tibs",
+        "price": 45000
+      }
+    ],
+    "total": 45000
+  },
+  {
+    "id": 1003,
+    "customerName": "Meron Alemu",
+    "area": "Kazanchis",
+    "status": "Preparing",
+    "dishes": [
+      {
+        "name": "Kitfo",
+        "price": 60000
+      }
+    ],
+    "telebirrPhone": "0923456789",
+    "total": 60000
+  },
+  {
+    "id": 1004,
+    "customerName": "Hana Bekele",
+    "area": "Saris",
+    "status": "Delivered",
+    "dishes": [
+      {
+        "name": "Burger",
+        "price": 25000
+      },
+      {
+        "name": "Juice",
+        "price": 10000
+      }
+    ],
+    "total": 35000
+  }
+]

@@ -1,0 +1,21 @@
+Module 4 - Day 52: Toolchain verification
+
+Run these commands in PowerShell and paste your actual output below each command.
+Do not copy example version numbers; record the versions installed on your computer.
+
+1. node -v
+Output:
+
+2. npm -v
+Output:
+
+3. nest --version
+Output:
+
+4. tsc --version
+Output:
+
+If a command fails, write:
+- The command that failed:
+- The error message:
+- How I fixed it:
